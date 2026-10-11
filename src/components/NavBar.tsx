@@ -1,11 +1,10 @@
-import React from "react";
+import { NavLink } from 'react-router-dom';
 
-interface Props {
-  cartItemsCount: number;
+export default function Navbar() {
+  return (
+    <nav className="navbar-bo">
+      <NavLink to="/authors">Autores</NavLink>
+      <NavLink to="/books">Libros</NavLink>
+    </nav>
+  );
 }
-
-const NavBar = ({ cartItemsCount }: Props) => {
-  return <div>NavBar: {cartItemsCount}</div>;
-};
-
-export default NavBar;

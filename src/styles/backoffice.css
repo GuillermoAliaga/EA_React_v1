@@ -1,0 +1,35 @@
+.navbar-bo { display: flex; gap: 24px; padding: 12px 16px; border-bottom: 1px solid #ddd; }
+.navbar-bo a { text-decoration: none; color: #333; font-weight: 500; }
+.navbar-bo a.active { color: #0f3460; font-weight: 700; }
+
+.page { padding: 16px; max-width: 1100px; margin: 0 auto; }
+.page-header { display: flex; justify-content: space-between; align-items: center; }
+.toolbar { display: flex; gap: 12px; align-items: center; margin: 12px 0; }
+.search-input { flex: 1; padding: 8px; }
+.alert-bo { color: #b00020; }
+.muted { color: #777; }
+
+.table-bo { width: 100%; border-collapse: collapse; }
+.table-bo th, .table-bo td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
+.table-bo tr.inactive { opacity: 0.5; }
+.role-badge { padding: 2px 8px; border-radius: 10px; font-size: 12px; }
+
+.cards-bo { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.author-card, .book-card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: white; }
+.card-cover { width: 100%; height: 150px; object-fit: cover; }
+.card-body-bo { padding: 12px; display: flex; flex-direction: column; gap: 4px; }
+.card-actions-bo { display: flex; gap: 8px; padding: 0 12px 12px; }
+
+.pagination-bo { display: flex; gap: 12px; align-items: center; justify-content: center; margin: 16px 0; }
+.view-toggle-bo { display: flex; gap: 4px; }
+.view-toggle-bo button.active { font-weight: 700; text-decoration: underline; }
+
+.modal-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+.confirm-modal { background: white; border-radius: 8px; padding: 24px; max-width: 400px; width: 90%; }
+.modal-actions { display: flex; justify-content: flex-end; gap: 12px; margin-top: 20px; }
+
+.form-bo { display: flex; flex-direction: column; gap: 12px; max-width: 480px; }
+.form-bo label { display: flex; flex-direction: column; gap: 4px; }
+.form-bo input, .form-bo select { padding: 8px; }
+.field-error { color: #b00020; }
+.form-actions { display: flex; gap: 16px; align-items: center; margin-top: 8px; }
